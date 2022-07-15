@@ -118,7 +118,7 @@ cd browser-deploy
 前端服务端口：sed -i "s/5100/${your_web_port}/g" common.properties
 后端服务端口：sed -i "s/5101/${your_server_port}/g" common.properties
 
-例子（将数据库IP由127.0.0.1改为0.0.0.0）：sed -i "s/127.0.0.1/0.0.0.0/g" application.yml
+例子（将数据库IP由127.0.0.1改为0.0.0.0）：sed -i "s/127.0.0.1/0.0.0.0/g" common.properties
 ```
 
 ## 4.部署
